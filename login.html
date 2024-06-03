@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Registrate</title>
+    <title>Inicio de sesión</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -36,8 +36,7 @@
   <section class="seccion-registro">
     <div class="caja-form">
       <form id="register-form">
-        <br><br>
-      <h2>Registro</h2>
+      <h2>Iniciar sesión</h2>
       <div class="caja-input">
         <input type="text" placeholder="Nombre de usuario" name="username" required> 
         <i class='bx bx-user' style='color:#ffffff'  ></i>
@@ -50,24 +49,12 @@
       <div class="recuerda">
         <label> <input type="checkbox">Recordar <a href="#">Olvidé mi contraseña</a></label>
       </div>
-
-      <div class="caja-input">
-        <input type="email" placeholder="Email" name="email"> 
-        <i class='bx bx-envelope' style='color:#ffffff' ></i>
-      </div>
-      <div class="caja-input">
-        <input type="date" required style="color-scheme: dark;"> 
-      </div>
-
-      <div class="login-texto">
-        <label> <a href="login.html">Ya tengo cuenta</a></label>
-      </div>
-
-      <button type="submit" class="btn"> Registrarse </button>
       <br><br>
+      <div class="login-texto">
+        <label> <a href="registro.html">¿No tenés cuenta? Registrate acá</a></label>
+      </div>
 
-      <p id="error-message" class="text-danger"></p>
-
+      <button type="submit" class="btn" formaction="/juegos.html"> Iniciar sesión </button>
     </form>
     </div>
   </section>

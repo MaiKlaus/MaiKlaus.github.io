@@ -324,7 +324,7 @@ body {
 .caja-form {
 	position: relative;
 	width: 420px;
-	height: 510px;
+	height: 550px;
 	background: transparent;
 	border: 1px solid #ADADAD;
 	border-radius: 20px;
@@ -332,6 +332,7 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
 
 .caja-form h2 {
 	font-size: 2em;
@@ -396,6 +397,22 @@ body {
 	text-decoration: underline;
 }
 
+.login-texto {
+	margin: -15px 0 15px;
+	font-size: .9em;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.login-texto label a {
+	color: white;
+	text-decoration: none;
+}
+
+.login-texto label a:hover {
+	text-decoration: underline;
+}
 
 .caja-form button {
 	width: 100%;
@@ -413,17 +430,6 @@ body {
 .caja-form button:hover {
 	background-color: #04AA6D; /* Green */
   	color: white;
-}
-
-
-/* ------- Página de juegos ------- */
-
-.juegos-pag img{
-	width: 154px;
-	height: 229px;
-	margin-top: 20px;
-	margin-left: 5px;
-	object-fit: cover;
 }
 
 /* ------- Página de juego individual (TLOU ejemplo) ------- */
@@ -523,3 +529,18 @@ body {
 	width: 480px;
 	float: left;
   }
+
+  /* ----------------- Juegos. Con API ------------ */
+
+.juegos-js {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.juegos-js .card {
+    flex: 1 1 calc(50% - 20px);
+    margin-bottom: 20px;
+	background-color: #ffffff21;
+	color: #e0e0e0;
+}
