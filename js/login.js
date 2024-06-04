@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Redirigir al usuario después del login exitoso
-        window.location.href = 'juegos.html';
+        window.location.href = 'peliculas.html';
     });
 });

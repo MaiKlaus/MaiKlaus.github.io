@@ -544,3 +544,25 @@ body {
 	background-color: #ffffff21;
 	color: #e0e0e0;
 }
+
+/* ----------------- Películas. Con API ------------ */
+
+.peliculas-js {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.peliculas-js .card {
+    flex: 1 1 calc(50% - 20px);
+    margin-bottom: 20px;
+	background-color: #ffffff21;
+	color: #e0e0e0;
+}
+
+.center-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
